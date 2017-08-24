@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monica's Widget Test 2</title>
+    <link rel="stylesheet" href="widgettest.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <!-- Begin Orbitera Widget Code -->
+<script type="text/javascript" charset="utf-8">
+  var is_ssl = ("https:" == document.location.protocol);
+  var setsHost = is_ssl ? "https://act.avnetcloudready.com/" : "http://act.avnetcloudready.com/";
+  document.write(unescape("%3Cscript src='" + setsHost + "js/widget_over.js?_t="+(new Date).getTime()+"' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript" charset="utf-8">
+  var orbitera_widget_options = {};
+  orbitera_widget_options.theme_body_background = "009dac"; // color code in hex format (RRGGBB)
+  orbitera_widget_options.display = "overlay";
+  orbitera_widget_options.placement = "hidden"; /* "left","hidden" */
+  orbitera_widget_options.account = "techdata-na";
+  orbitera_widget_options.orbiteraURL = setsHost;
+  var orbitera_widget = new OrbiteraWidget.widget(orbitera_widget_options);
+</script>
+<!-- End Orbitera Widget Code -->
+  </head>
+    <body>
+      <center>
+      <div class="div">
+      <h1>Monica's Widget Test 2</h1>
+      </div>
+      </center>
+      
+      <div class="w3-container w3-center">
+        <button onClick="orbitera_widget.show()">Click Here to open Widget in Overlay</button>
+      </div>
+    </body>
+  
+  
+  </html>

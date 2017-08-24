@@ -1,0 +1,35 @@
+body {
+  background-image: url(http://rmcbkk.com/wp-content/uploads/2015/10/p19tirnrjtl2p18nf1eikd7bcht5.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: 4px solid blue;
+    height: 100px;
+    width: 500px;
+  }
+  
+  button:hover {
+    background-color: purple;
+    color: blue;
+  }
+  
+  .div {
+    height: 200px;
+    width: 400px;
+    
+  }
+  
+  #colorTest {
+    height: 100px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, red, yellow); /* Standard syntax (must be last) */
+  }
